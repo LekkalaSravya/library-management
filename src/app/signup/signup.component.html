@@ -1,0 +1,22 @@
+<div class="sec">
+    <div *ngIf="errMsg" class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>{{errMsg}}</strong>  
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <div *ngIf="successMsg" class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>{{successMsg}}</strong>  
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+
+    <div class="form"> 
+    <form  [formGroup]="userForm" (ngSubmit)="userSubmit()"> 
+    <label>Name:</label><br>
+    <input type="text" formControlName="name"><br>
+    <label>Email</label><br>
+    <input type="email" formControlName="email"><br>
+    <label>Password</label><br>
+    <input type="password" formControlName="password"><br><br>
+    <button>SignUp</button>
+</form>
+</div>
+</div>

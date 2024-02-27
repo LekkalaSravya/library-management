@@ -1,0 +1,31 @@
+.sec{
+    height:720px;
+    background-image: url("/assets/lib.jpg");
+}
+.form{
+    padding-top: 100px;
+    padding-left: 650px;
+    color:aliceblue;
+    font-size: 20px;
+}
+input{
+    padding: 0px;
+    width:300px;
+}
+button{
+    margin-left: 250px;
+    padding: 5px;
+    background-color: rgb(221, 240, 50);
+    color:black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.alert{
+    margin-left:300px;
+    margin-right: 300px;
+     
+}
+.back{
+    margin-left: 1200px;
+    margin-top: 100px;
+}

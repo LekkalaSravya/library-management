@@ -1,0 +1,61 @@
+.body{
+    height: 1500px;
+    background-color: rgb(245, 232, 232);
+}
+input{
+    margin-left: 500px;
+    
+    margin-top: 50px;
+    padding: 5px;
+    width:600px;
+}
+.body a{
+    margin-left: 1300px;
+    margin-top: 50px;
+    background-color: rgb(89, 17, 17);
+    color:aliceblue;
+    padding: 10px;
+    text-decoration: none;
+}
+.books{
+    display: flex;
+    border-top: 2px solid brown;
+    border-bottom: 2px solid brown;
+    border-left: 2px solid brown;
+    border-right: 2px solid brown;
+    height:250px;
+    margin-left: 350px;
+    width:900px;
+    margin-top: 40px;
+}
+.img{
+    width:30%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.img h5{
+    padding-top: 40px;
+}
+
+.det h5 span{
+    padding-left: 20px;
+}
+.det button{
+    margin-left:450px ;
+    margin-top: 40px;
+    padding: 5px;
+    font-size: 20px;
+}
+.book-tab h3{
+   margin-left: 450px;
+   margin-top: 50px;
+   margin-right: 400px;
+   padding: 10px;
+   font-size: 25px;
+   background-color: rgb(87, 22, 22);
+   color:white;
+}
+.det2{
+    padding-left: 40px;
+}
+

@@ -1,0 +1,73 @@
+.book{
+    height:2500px;
+    background-color: rgb(245, 232, 232);
+    display: flex;
+}
+.book-form{
+    width:30%; 
+    border-right: 2px solid brown;
+}
+.book-form h3{
+    padding-left: 90px; 
+    background-color: rgb(95, 15, 15);
+    color:white;
+    margin-left: 3%;  
+     
+}
+form {
+    font-weight: bold;
+    font-size:20px;
+}
+button{
+    background-color: rgb(81, 19, 19);
+    color:white;
+}
+.books{
+    display: flex;
+    border-top: 2px solid brown;
+    border-bottom: 2px solid brown;
+    border-left: 2px solid brown;
+    border-right: 2px solid brown;
+    height:250px;
+    margin-left: 50px;
+    width:900px;
+    margin-top: 40px;
+}
+.img{
+    width:30%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.img h5{
+    padding-top: 40px;
+}
+
+.det h5 span{
+    padding-left: 20px;
+}
+.det button{
+    margin-left:450px ;
+    margin-top: 40px;
+    padding: 5px;
+    font-size: 20px;
+}
+.book-tab h3{
+   margin-left: 450px;
+   margin-top: 50px;
+   margin-right: 400px;
+   padding: 10px;
+   font-size: 25px;
+   background-color: rgb(87, 22, 22);
+   color:white;
+}
+.det2{
+    padding-left: 40px;
+}
+.book-tab a{
+    background-color: rgb(94, 15, 15);
+    color:white;
+    padding: 10px;
+    margin-left: 800px;
+    margin-top: 60px;
+    text-decoration: none;
+}

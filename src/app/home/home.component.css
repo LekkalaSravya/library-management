@@ -1,0 +1,36 @@
+.navi{
+    height:60px;
+    background-color: rgb(72, 13, 13);
+    color:white;
+}
+ 
+.head{
+
+    padding-top: 10px;
+    display:flex;
+    padding-left: 00px;
+}
+.head h3{
+    font-size: 25px;
+    padding-left: 20px;
+     
+}
+.head li{
+    padding-left: 200px;
+    list-style: none;
+    color:white;
+}
+.li{
+    display:flex;
+    padding-left: 300px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.li li a{
+    text-decoration: none;
+    color:aliceblue;
+}
+.sec{
+    height:720px;
+    background-image: url("/assets/lib.jpg");
+}

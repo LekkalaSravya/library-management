@@ -1,0 +1,28 @@
+<div class="body"> 
+    <a routerLink="/">Logout</a>
+    <input type="search" name="search" placeholder="search by author,title,subject,year" [(ngModel)]="searchText" >
+    <div class="books" *ngFor="let usr of readUser | filter:searchText"  >
+        <div class="img">
+            <img src="/assets/{{usr.image}}" alt="" height="200px" width="150px">
+             
+        </div>
+        <div class="det">
+            <pre> 
+        <h5>Title:<span>{{usr.title}}</span></h5>
+        <h5>Author:<span>{{usr.author}}</span></h5>
+        <h5>Subject:<span>{{usr.subject}}</span></h5>
+            </pre>
+        </div>
+            <div class="det2" > <pre> 
+            <h5>Publish Year:<span>{{usr.year}}</span></h5>
+            <h5>No.Of.Books Available: <span>{{usr.bookcopy}}</span></h5> 
+            
+                   
+            </pre>
+        </div>
+         
+      </div>
+
+     
+
+</div>

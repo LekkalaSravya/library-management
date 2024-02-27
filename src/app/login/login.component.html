@@ -1,0 +1,22 @@
+<div class="sec"> 
+    <div *ngIf="errMsg" class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>{{errMsg}}</strong>  
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+       
+<div class="form">
+  <h2>Login</h2>
+  <form (submit)="login()">
+    <div>
+      <label for="username">Email:</label><br>
+      <input type="text" id="email" name="email" [(ngModel)]="email" required><br>
+    </div>
+    <div>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" [(ngModel)]="password" required>
+    </div><br>
+    <button type="submit">Login</button><br>
+    <a routerLink="/signup">Doesn't Have an Account? signup</a>
+  </form>
+</div>
+</div>
