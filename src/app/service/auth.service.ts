@@ -8,8 +8,8 @@ import { Observable } from 'rxjs';
 export class AuthService {
 
    
-  apiUrl="http://localhost:3030/books";
-  cUrl="http://localhost:3030/book";
+  apiUrl="https://library-backend-1-4g5r.onrender.com/books";
+  cUrl="https://library-backend-1-4g5r.onrender.com/book";
   constructor(private http:HttpClient) { }
   getAllUser():Observable<any>{
        return this.http.get(`${this.apiUrl}`);
